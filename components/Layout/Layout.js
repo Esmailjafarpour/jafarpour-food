@@ -24,7 +24,7 @@ const Layout = ({children}) => {
 
             <footer className={styles.footer}>
                <a href="https://botostart.ir" target="_blank" rel="noreferrer">Jafarpour Food</a>
-               Next.js course | BotoFood Project &copy:
+               -- Next.js course | BotoFood Project &copy:
             </footer>
           </>
      );
