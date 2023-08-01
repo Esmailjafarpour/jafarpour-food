@@ -5,6 +5,8 @@ import Attribute from "../modules/Attributes";
 import Definition from "../modules/Definition";
 import Guide from "../modules/Guide";
 import Restrictions from "../modules/Restrictions";
+import Companies from "../modules/Companies";
+import Instruction from "../modules/Instruction";
 
 const HomePage = () => {
      return (
@@ -13,6 +15,8 @@ const HomePage = () => {
                <Attribute/>
                <Definition/>
                <Guide/>
+               <Companies/>
+               <Instruction/>
                <Restrictions/>
           </div>
      );
