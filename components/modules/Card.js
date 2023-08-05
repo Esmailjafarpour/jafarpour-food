@@ -29,7 +29,7 @@ const Card = (props) => {
                               {price}$
                          </span>
                     )}
-                    {discount ? <div className={styles.badge}>{discount}</div> : null}
+                    {discount ? <div className={styles.badge}>{discount} %</div> : null}
                </div>
                <Link href={`/menu/${id}`}>See Details</Link>
                
