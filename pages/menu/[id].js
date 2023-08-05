@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import DetailsPage from "../../components/template/detailsPage";
+import DetailsPage from "../../components/template/DetailsPage";
 
 const Details = ({data}) => {
 

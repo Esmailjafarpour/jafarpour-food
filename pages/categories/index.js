@@ -1,9 +1,9 @@
-import React from 'react';
+import CategoriesPage from "../../components/template/CategoriesPage";
 
 const Categories = () => {
      return (
           <div>
-             Categories  
+               <CategoriesPage/>
           </div>
      );
 }
