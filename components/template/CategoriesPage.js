@@ -19,9 +19,7 @@ const CategoriesPage = ({data}) => {
           setQuery({
                ...query,
                [event.target.name] : event.target.value
-          })
-
-         
+          }) 
      }
 
      const searchHandler = () => {

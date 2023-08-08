@@ -5,7 +5,7 @@ const Banner = () => {
           <div className={styles.container}>
 
                <div className={styles.left}>
-                    <h1>JafarpourFood</h1>
+                    <h2>JafaripourFood</h2>
                     <p>Food Delivery and Takeout!</p>
                     <span>
                     BotoFood is an online food ordering and delivery platform launched by

@@ -8,7 +8,7 @@ const Layout = ({children}) => {
             <header className={styles.header}>
 
                <div className={styles.left}>
-                    <Link href="/">jafarpourfood</Link>
+                    <Link href="/">JAFARIPOUR FOOD</Link>
                </div>
 
                <div className={styles.right}>

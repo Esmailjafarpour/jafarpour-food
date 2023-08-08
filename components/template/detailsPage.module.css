@@ -5,10 +5,13 @@
    }
    
    .container h2 {
-     border-bottom: 5px solid #53c60b;
-     width: fit-content;
-     margin-bottom: 50px;
-     font-size: 1.9rem;
+    border-bottom: 5px solid #7c0c99;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-bottom: 50px;
+    font-size: 1.9rem;
+    color: #4d3a54;
+    border-radius: 5px;
    }
    
    .banner {
@@ -26,7 +29,7 @@
    
    .banner h3 {
      font-size: 1.3rem;
-     color: #53c60b;
+     color: #7c0c99;
    }
    
    .banner span {
@@ -40,7 +43,7 @@
    }
    
    .discount {
-     background-color: #ed4133;
+     background-color: #7c0c99;
      color: white;
      padding: 10px 0;
      display: flex;
@@ -61,7 +64,7 @@
    
    .details h4 {
      font-size: 1.5rem;
-     color: #53c60b;
+     color: #7c0c99;
      margin: 24px 0;
    }
    
@@ -77,7 +80,7 @@
    
    .details li::before {
      content: "• ";
-     color: #53c60b;
+     color: #7c0c99;
    }
    
    .details p {
@@ -96,7 +99,7 @@
    
    .recipe h4 {
      font-size: 1.5rem;
-     color: #53c60b;
+     color: #7c0c99;
      margin: 24px 0;
    }
    
@@ -105,19 +108,26 @@
      align-items: center;
      padding: 20px 10px;
      text-align: justify;
+     border-radius: 8px;
    }
    
    .recipe span {
      font-size: 2rem;
      margin: 0 15px 0 5px;
+     padding: 10px;
+   }
+
+   .recipe p {
+      padding: 10px;
    }
    
    .odd {
      background-color: #e8ffdb;
    }
    
+   
    .even {
-     background-color: #bcff93;
+     background-color: #d47efd38;
    }
    
    .container button {

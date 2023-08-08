@@ -10,6 +10,8 @@
      padding: 15px 50px;
      border-radius: 10px;
      cursor: pointer;
+     color: #7c0c99;
+     font-weight: 600;
 }
 
 @media(max-width : 900px){
