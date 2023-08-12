@@ -35,18 +35,20 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
 
-     const { params :{ id } } = context;     
+     const { 
+          params :{ id } 
+     } = context;     
      const res = await fetch(`${process.env.BASE_URL}/data/${id}`);
      const data = await res.json();
 
      if (!data.id) {
           return{
-               notFound : true
+               notFound : true,
           }
      }
 
      return{
           props : {data},
-          revalidate : +process.env.REVALIDATE //second
+          revalidate: +process.env.REVALIDATE,
      }
 }
